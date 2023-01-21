@@ -1,7 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
 import {useState} from "react";
-import mainPic from "./Img/profile.jpg"
+import mainPic from "./Img/profile.jpg";
+import svgPic from "./Img/download.png";
+import hahaPic from "./Img/hahaha.png";
+import likePic from "./Img/like.png"
 // let myNum = 5;
 
 // let plus = () => {
@@ -43,9 +46,11 @@ function App() {
         src={imageUrl}
         alt=""
        />  
-      <hr/>
+        <hr />
+        <hr />
       <div className="buttons">
-        <p className="data">{data}</p>
+        <p className="data"><img  src={svgPic } alt="" /><img  src={likePic } alt="" /><img  src={hahaPic } alt="" />{data}</p>
+        <hr />
         <button onClick={changeState} >Like</button>
         <button>Comments</button>
         <button>Share</button>
@@ -91,9 +96,14 @@ function App() {
   />
   <Hi name="Nadeem"
       date="18 jan 2023"
-      imageUrl={"https://pbs.twimg.com/media/FiqPFixWAAAc97p.jpg"}/>
-  <Hi name="Nadeem"  imageUrl={30}/>
-
+      imageUrl={"https://pbs.twimg.com/media/FiqPFixWAAAc97p.jpg"}
+      text="lorem6"
+      />
+     
+  <Hi name="Nadeem"
+      date="25 nov 2022"  
+      imageUrl={"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzZKe149HmeyZDEJZp4bUSjLdzUxlaBwUjrw&usqp=CAU"}
+      text="Clifton Beach Karachi is without any doubt the most visited place in the Karachi by residents and tourists for leisure and picnic. Commonly known as Sea View, this beach on Arabian Sea is open to public 24/7 and 365 days a year. I have visited Sea View multiple times, either for dinning, shopping or for activities as well. These all are covered in this post."/>
   </div>
   
   );

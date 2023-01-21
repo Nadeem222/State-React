@@ -56,8 +56,19 @@ body{
   cursor: pointer;
 }
 .post> .buttons> .data{
-  margin-left: 63px;
-  margin-bottom: -10px;
+  margin-left: 43px;
+  image-rendering: crisp-edges;
+  margin-bottom: -1px;
+  font-size: 15px;
+  margin-left: 5px;
+  color: #76787B;
+  padding: 4px;
+}
+.post> .buttons img{
+  width: 15px;
+}
+.post> .buttons> hr{
+  margin-top: 10px;
 }
 .post> .buttons input{
   width: 500px;
