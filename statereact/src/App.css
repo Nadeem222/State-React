@@ -1,0 +1,76 @@
+*{
+  font-family: "Segoe UI Historic", "Segoe UI", Helvetica, Arial, sans-serif;
+}
+body{
+  display: flex;
+  justify-content: center;
+  background-color: #F0F2F5;
+}
+.post{
+  border-radius: 10px;
+  margin: 10px;
+  padding: 20px;
+  display: flex;
+  background-color: #E7E9EB;  
+  flex-direction: column;
+  width: 500px;
+  color: #050505;
+  font-weight: 400;
+  font-size: 12px;
+}
+.post img{
+  width: 100%;
+}
+.post> .profile{
+  display: flex;
+  font-size: 10px;
+}
+.post h2{
+  margin-bottom: 0;
+}
+.post> .profile img{
+  border-radius: 50%;
+  width: 42px;
+  height: 42px;
+}
+.post > .profile .right{
+  margin-left: 10px;
+  margin-top: 0;
+}
+.post> .buttons button{
+  /* display: flex;
+  /* justify-content: space-between; */
+  flex-direction: row; 
+  /* display: inline-block; */
+  padding: 8px 60px;
+  margin:  10px 0;
+  /* border-radius: 30px ; */
+  transition: all 0.3s ease;
+  background: #E7E9EB;
+  outline: none;
+  width: auto;
+  border: none;
+  
+}
+.post> .buttons button:hover{
+  cursor: pointer;
+}
+.post> .buttons> .data{
+  margin-left: 63px;
+  margin-bottom: -10px;
+}
+.post> .buttons input{
+  width: 500px;
+  padding: 5px 8px ;
+  border-radius: 8px;
+  border: none;
+  margin-left: 0;
+  display: inline-block;
+}
+.post> .buttons input:focus{
+  outline: none;
+}
+.Dark {
+  background-color: black;
+  color: beige;
+}
